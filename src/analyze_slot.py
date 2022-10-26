@@ -1,15 +1,7 @@
 from pydoc import tempfilepager
-import os
 from PIL import Image
 import numpy
 import cv2
-
-# rootpath = '/Users/Bruce/Projs/paddle-test/test_imgs/'
-
-# sourcepath = rootpath + 'mhrs/'
-# tmppath = rootpath + 'mhrs_temp/'
-# resultpath = rootpath + 'mhrs_result/'
-# slotpath = rootpath + 'slot/'
 
 slot_1_box = (905, 215, 930, 235)
 slot_2_box = (933, 215, 958, 235)

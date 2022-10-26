@@ -1,5 +1,4 @@
 from imghdr import tests
-import os
 import numpy as np
 from paddleocr import PaddleOCR, draw_ocr
 from PIL import Image
@@ -19,7 +18,7 @@ class analyzer():
     def analyze(self, _img):
 
         img_path = self.sourcepath + _img
-        tmp_path = self.tmppath + _img
+        # tmp_path = self.tmppath + _img
         # result_path = resultpath + _img
 
         # crop skill information into tem_path
